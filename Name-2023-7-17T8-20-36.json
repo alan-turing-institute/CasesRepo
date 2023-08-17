@@ -1,0 +1,79 @@
+{
+  
+  "type":"AssuranceCase",
+  "name":"Name",
+  "description":"Description",
+  "created_date":"2023-08-17T07:20:34.558299Z",
+  "lock_uuid":null,
+  "goals":[
+    {
+      
+      "type":"TopLevelNormativeGoal",
+      "name":"Goal",
+      "short_description":"Short description",
+      "long_description":"Long description",
+      "keywords":"Keywords (comma-separated)",
+      "assurance_case_id":2,
+      "context":[
+        {
+          
+          "type":"Context",
+          "name":"Context",
+          "short_description":"Short description",
+          "long_description":"Long description",
+          "created_date":"2023-08-17T07:20:34.572042Z",
+          "goal_id":2
+        }
+      ],
+      "system_description":[
+        {
+          
+          "type":"SystemDescription",
+          "name":"System description",
+          "short_description":"Short description",
+          "long_description":"Long description",
+          "goal_id":2
+        }
+      ],
+      "property_claims":[
+        {
+          
+          "type":"PropertyClaim",
+          "name":"Property claim",
+          "short_description":"Short description",
+          "long_description":"Long description",
+          "goal_id":2,
+          "property_claim_id":null,
+          "level":1,
+          "claim_type":"Project claim",
+          "evidential_claims":[
+            {
+              
+              "type":"EvidentialClaim",
+              "name":"Evidential claim",
+              "short_description":"Short description",
+              "long_description":"Long description",
+              "property_claim_id":[2],
+              "evidence":[
+                {
+                  
+                  "type":"Evidence",
+                  "name":"Evidence",
+                  "short_description":"Short description",
+                  "long_description":"Long description",
+                  "URL":"www.some-evidence.com",
+                  "evidential_claim_id":[2]
+                }
+              ]
+            }
+          ],
+          "property_claims":[]
+        }
+      ]
+    }
+  ],
+  "owner":1,
+  "edit_groups":[],
+  "view_groups":[],
+  "permissions":"manage"
+}
